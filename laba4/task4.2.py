@@ -10,7 +10,6 @@ try:
     val = int(count)
 except ValueError:
     print("Нужно ввести число!")
-if count == '0':
+except ZeroDivisionError:
     print("Делить на ноль нельзя!")
-else:
-    print(a // int(count))
+print(a // int(count))

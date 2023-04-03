@@ -5,7 +5,7 @@ for i in range(0,number):
     res=res+word
     if i != number-1:
         res=res+ " "
-print(res)
+print("Результат:" , res)
 
 
 

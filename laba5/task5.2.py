@@ -6,4 +6,4 @@ for i in range(len(spisok1) - 1):
     for j in range(i + 1, len(spisok1)):
         if spisok1[i] == spisok1[j]:
             x = x + str(spisok1[i]) + " "
-print("повторяющихся элементов:", x)
+print("Повторяющиеся элементы:", x)

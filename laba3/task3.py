@@ -1,6 +1,7 @@
 word=input('Введите слово: ')
+
 for i in word:
-    if "ф" or "Ф" in word:
+    if (i=="ф" ) or (i=="Ф"):
         print('Ого! Вы ввели редкое слово!')
         break
     else:

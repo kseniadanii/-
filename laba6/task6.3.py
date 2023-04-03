@@ -9,8 +9,8 @@ for (k, v) in students.items():
     if 'Китайский' in v:
         name.append(k)
 
-print("Количество языков:",len(language))
+print("Количество языков:", len(language))
 print("Сортировка:")
-print(*sorted(language),sep=',')
-print("Знают китайский:",end=' ')
-print(*name,sep=',')
+print(*sorted(language), sep=',')
+print("Знают китайский:", end=' ')
+print(*name, sep=',')

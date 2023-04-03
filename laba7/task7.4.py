@@ -20,3 +20,4 @@ for i, img in enumerate(images):
     img.save(f'C:/Users/user/Desktop/laba7/task4/{new}')
 
 # f'{}' - форматная строка
+

@@ -5,3 +5,4 @@ image.show()
 print(image.size)
 print(image.format)
 print(image.mode)
+

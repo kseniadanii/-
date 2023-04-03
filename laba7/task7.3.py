@@ -10,3 +10,4 @@ for i, img in enumerate(images):
     print(new)
     img.save(f'C:/Users/user/Desktop/laba7/ready/{new}')
 
+

@@ -9,5 +9,3 @@ for i, img in enumerate(images):
     new = f'imgready_{i + 1}.png'
     print(new)
     img.save(f'C:/Users/user/Desktop/laba7/ready/{new}')
-
-

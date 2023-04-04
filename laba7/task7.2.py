@@ -10,4 +10,3 @@ res_image2.save('C:/Users/user/Desktop/laba7/meowleftright.png')
 
 res_image3 = res_image.transpose(Image.FLIP_TOP_BOTTOM)
 res_image3.save('C:/Users/user/Desktop/laba7/meowuodown.png')
-

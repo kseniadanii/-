@@ -12,12 +12,11 @@ for i, img in enumerate(images):
     fg_img_trans.paste(water_mark, (0, 0))
     transparent_image = Image.new('RGBA', img.size)
     fg_img_trans = Image.blend(fg_img_trans, transparent_image, 0.5)
-    img.paste(fg_img_trans, (0,0), fg_img_trans)
-    #img.paste(blended, (0, 0))
+    img.paste(fg_img_trans, (0, 0), fg_img_trans)
+    # img.paste(blended, (0, 0))
     new = f'imgready_{i + 1}.png'
     print(new)
 
     img.save(f'C:/Users/user/Desktop/laba7/task4/{new}')
 
 # f'{}' - форматная строка
-

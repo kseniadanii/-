@@ -1,0 +1,10 @@
+from PIL import  Image
+image= Image.open('C:/Users/user/Desktop/laba8/открытка.jpg')
+cropped_text=image.crop((600,350,1200,1200))
+cropped_text2=image.crop((300,0,1200,330))
+cropped_bunny=image.crop((20,350,700,920))
+cropped_cake=image.crop((50,870,695,1200))
+cropped_text.save('C:/Users/user/Desktop/laba8/cropped/Стих.jpg')
+cropped_text2.save('C:/Users/user/Desktop/laba8/cropped/Текс.jpg')
+cropped_bunny.save('C:/Users/user/Desktop/laba8/cropped/Заяц.jpg')
+cropped_cake.save('C:/Users/user/Desktop/laba8/cropped/Торт.jpg')

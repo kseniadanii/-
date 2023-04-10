@@ -12,3 +12,4 @@ if user in holidays:
 else:
     print("Такого праздника нет")
 
+

@@ -10,7 +10,7 @@ class MainWindow(QMainWindow):
         count = self.count
 
         if count < 10:
-            text = 'Закликай меня UwU'
+            text = 'Начинаем!'
         elif count < 20:
             text = 'Не останавливайся!'
         elif count < 30:
@@ -20,7 +20,7 @@ class MainWindow(QMainWindow):
         elif count < 75:
             text = 'Вот это да!'
         elif count < 100:
-            text = 'Я больше не могу!'
+            text = 'Супер!!'
         else:
             text = 'Ты меня закликал!'
             self.widget_msg.setStyleSheet("""
